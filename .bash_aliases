@@ -5,21 +5,22 @@ alias ....='cd ../../..'
 alias rmf='rm -f'
 alias rmd='rm -rf'
 alias t='touch'
+alias top="vtop"
+alias oldtop="/usr/bin/top"
 
 # Development
 alias chrome="google-chrome"
-alias cl="clear"
-alias install="sudo apt-get install"
 
 # rails
 alias rs="rails s"
 alias rc="rails c"
 alias rg="rails g"
+alias rgc="rails g controller"
+alias rrgm="rails g model"
 alias rdm="rake db:migrate"
 alias rdc="rake db:create"
 alias rdd="rake db:drop"
-alias rdf="rake db:drop && rake db:create && rake db:migrate && rails s"
-
+alias rdpsql="rake db:drop && rake db:create && rake db:migrate && rails s"
 
 # Git
 alias ga="git add"
@@ -30,3 +31,11 @@ alias gb="git branch"
 alias gch="git checkout"
 alias gr="git remote"
 alias gp="git push"
+
+# APT
+alias install="sudo apt-get install"
+alias apt-list='apt-cache policy'
+
+# Other
+alias where='whereis'
+alias disks='ls /dev/disk/by-uuid/ -alh'
