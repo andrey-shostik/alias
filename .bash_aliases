@@ -6,7 +6,6 @@ alias rmf='rm -f'
 alias rmd='rm -rf'
 alias t='touch'
 alias top="vtop"
-alias oldtop="/usr/bin/top"
 
 # Development
 alias chrome="google-chrome"
