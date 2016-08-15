@@ -5,7 +5,6 @@ alias ....='cd ../../..'
 alias rmf='rm -f'
 alias rmd='rm -rf'
 alias t='touch'
-alias top="vtop"
 
 # Development
 alias chrome="google-chrome"
@@ -15,7 +14,7 @@ alias rs="rails s"
 alias rc="rails c"
 alias rg="rails g"
 alias rgc="rails g controller"
-alias rrgm="rails g model"
+alias rgm="rails g model"
 alias rdm="rake db:migrate"
 alias rdc="rake db:create"
 alias rdd="rake db:drop"
