@@ -1,6 +1,6 @@
 # Files
-alias ..='cd ..'
-alias t='touch'
+alias ..="cd .."
+alias t="touch"
 
 # Git
 alias gp="git push origin"
